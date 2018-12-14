@@ -214,6 +214,14 @@ define({
       },
       preview: {
         error: "Error loading preview"
+      },
+      links: {
+        atom: "ATOM result",
+        rss:  "RSS result",
+        json: "JSON result",
+        csv:  "CSV result",
+        csw:  "CSW result",
+        kml:  "KML result"
       }
     },
     
@@ -225,7 +233,7 @@ define({
         links: "Links",
         addToMap: "Add to Map",
         preview: "Preview",
-        titleFormat: "${action} link for ${title}",
+        titleFormat: "${action} - ${title}",
         options: {
           caption: "Options",
           editMetadata: "Edit Metadata",

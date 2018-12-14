@@ -17,6 +17,7 @@ body {
 }
 .calcite .dijitTitlePaneTitle {
   padding: 4px 6px;
+  overflow-y: hidden;
 }
 .calcite .dijitTitlePaneContentInner {
   padding: 8px;
@@ -499,4 +500,13 @@ a.dropdown-toggle:focus {
 	overflow: visible;
 	clip-path: none;
 	text-decoration: none;
+}
+
+.g-open-search-result-links {
+  float: right;
+  padding: 1em;
+}
+
+.g-open-search-result-link {
+  margin-left: 1em;
 }
